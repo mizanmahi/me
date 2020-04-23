@@ -287,8 +287,8 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a {
     color: #666;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 40px;
@@ -383,7 +383,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
+    background: url('../images/education-img.jpg')  no-repeat ;
 }
 
 #about .about-thumb,
