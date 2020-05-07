@@ -178,7 +178,9 @@ footer {
 
 .bg-dark {
   background: #161616;
+  height: 306px;
 }
+
 
 
 
@@ -257,7 +259,7 @@ a:hover, a:active, a:focus {
   animation: spinner .6s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
+@keyframes spinner {
   to {transform: rotate(360deg);}
 }
 
@@ -356,7 +358,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('../images/home-img.jpg') no-repeat;
+  background: url('../images/home-img.jpg') top no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -466,7 +468,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
+  background: url('../images/education-img.jpg')  center no-repeat;
 }
 
 #education .media-heading {
@@ -531,7 +533,9 @@ a:hover, a:active, a:focus {
   padding: 22px 32px 22px 32px;
   min-height: 75vh;
 }
-
+.custom_contact{
+  height: 592px;
+}
 #contact .contact-img {
   background: url('../images/contact-img.jpg') no-repeat;
   min-height: 75vh;
